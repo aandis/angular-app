@@ -21,6 +21,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src = "js/angular.min.js"></script>
     <script type="text/javascript" src = "js/angular-route.js"></script>
+    <script type="text/javascript" src = "js/angular-animate.min.js"></script>
     <script type="text/javascript" src = "js/angular-resource.min.js"></script>
     <script type="text/javascript" src = "js/oridomi.min.js"></script>
     <script type="text/javascript" src = "js/script-angular.js"></script>
@@ -42,7 +43,7 @@
             <span class = "description">Events</span>
           </li>
           <li class = "list">
-            <a href="#"><img src = "images/sponsors.png"></a>
+            <a href="#/sponsors"><img src = "images/sponsors.png"></a>
             <span class = "description">Sponsors</span>
           </li>
           <li class = "list">
@@ -61,12 +62,12 @@
       </div>
     </div>
 
-    <div ng-view>
+    <div ng-view class="fade">
 
     </div>
 
     <!--footer -->
-    
+
     <div class = "col-lg-2" id = "social-home">
       <a href = "#" id = "fb">
         <img src="images/icon-fb.png">

@@ -1,4 +1,11 @@
 
+function alertMsg() 
+{      
+	//your func
+    $('#heading').removeAttr("data-scroll-reveal");
+	$('#homepage-logo').removeAttr("data-scroll-reveal");
+}
+
 $(document).ready(function() 
 {
 	$("#homepage-logo-box").hide();
@@ -9,4 +16,5 @@ $(document).ready(function()
 	$(".list").mouseleave(function(){
 		$(this).find(".description").hide();
 	});
+	setTimeout(alertMsg,3000); 
 });

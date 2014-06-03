@@ -7,7 +7,7 @@ else
 //	alert("good");
 }
 
-	var myapp = angular.module("myapp", ['ngRoute','fox.scrollReveal']);
+	var myapp = angular.module("myapp", ['ngRoute','fox.scrollReveal','ngAnimate']);
 console.log("ok");
 
 	myapp.controller("homeController", function ($scope)
@@ -18,6 +18,11 @@ console.log("ok");
 	myapp.controller("eventController",function ($scope)
 	{
 		$scope.id = "asdsa";
+	});
+
+	myapp.controller("sponsorsController",function($scope)
+	{
+		$scope.id = "nothing";
 	});
 
 	myapp.config(['$routeProvider',function($routeProvider)
@@ -34,6 +39,12 @@ console.log("ok");
 		{
 			templateUrl : "partials/events.html",
 			controller : "eventController"
+		}).
+		when
+		('/sponsors',
+		{
+			templateUrl : "partials/sponsors.html",
+			controller : "sponsorsController"
 		}).
 		otherwise
 		({

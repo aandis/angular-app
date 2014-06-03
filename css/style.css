@@ -1,15 +1,16 @@
 *
 {
-	background-color: #D5D5D5;
 	margin: 0 auto;
 }
 
-#body
+body
 {
 /*//	background-image: url("../images/fest8.jpg");
 	background-repeat: no-repeat;
 	background-position: -10px;
 */
+	background-color: #D5D5D5;
+
 }
 
 .row {
@@ -67,6 +68,31 @@ a img
 {
 	margin-left: 0.4em;
 }
+
+.fade {
+    opacity: 1;
+}
+.fade.ng-enter,
+.fade.ng-leave {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.fade.ng-enter {
+	transition: all 1.5s ease;
+    opacity: 0;
+}
+.fade.ng-enter-active {
+    opacity: 1;
+}
+.fade.ng-leave {
+    transition: all 0.1s ease;	
+    opacity: 1;
+}
+.fade.ng-leave-active {
+    opacity: 0;
+}
+
 /*styling for homepage*/
 
 #homepage-logo
@@ -92,4 +118,11 @@ a img
 .event-brief
 {
 	margin-top: 20em;
+}
+
+/*styling for sponsors page */
+
+.sponsor-logo
+{
+	max-width: 50%;
 }
