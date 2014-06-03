@@ -16,5 +16,7 @@ $(document).ready(function()
 	$(".list").mouseleave(function(){
 		$(this).find(".description").hide();
 	});
-	setTimeout(alertMsg,3000); 
+	setTimeout(alertMsg,3000);
+
+	$(".people-box").hide(); 
 });

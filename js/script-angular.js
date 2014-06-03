@@ -46,6 +46,12 @@ console.log("ok");
 			templateUrl : "partials/sponsors.html",
 			controller : "sponsorsController"
 		}).
+		when
+		('/contact',
+		{
+			templateUrl : "partials/contact.html",
+			controller : "sponsorsController"
+		}).
 		otherwise
 		({
 			redirectTo: '/'

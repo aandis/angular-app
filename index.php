@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">    
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,7 +52,7 @@
             <span class = "description">Gallery</span>
           </li>
           <li class = "list">
-            <a href="#"><img src = "images/contact.png"></a>
+            <a href="#/contact"><img src = "images/contact.png"></a>
             <span class = "description">Contact</span>
           </li>
           <li class = "list">

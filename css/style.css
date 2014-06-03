@@ -1,6 +1,8 @@
 *
 {
 	margin: 0 auto;
+	font-family: 'Arvo', serif;
+	font-weight : bold;
 }
 
 body
@@ -10,7 +12,6 @@ body
 	background-position: -10px;
 */
 	background-color: #D5D5D5;
-
 }
 
 .row {
@@ -35,6 +36,9 @@ body
 .description
 {
 	margin-left: 1em;
+	text-align: center;
+//	font-family: 'Arvo', serif;
+//	font-weight : bold;
 }
 
 .list: 
@@ -105,6 +109,7 @@ a img
 #heading
 {
 	color : #3e3f3a;
+//	font-family: 'Arvo', serif;
 	font-weight : bold;
 }
 
@@ -125,4 +130,16 @@ a img
 .sponsor-logo
 {
 	max-width: 50%;
+}
+
+/*styling for contact page */
+
+.people
+{
+	margin-top: 6em;
+}
+
+.img-circle
+{
+	max-width: 100%;
 }
