@@ -1,0 +1,10 @@
+<h3>New York Weather</h3>
+<p>
+	Temperature: {{weather.currently.temperature}}&deg;F <br>
+	Humidity: {{weather.currently.humidity * 100 | number:0}}% <br>
+	Pressure: {{weather.currently.pressure}} millibars<br>
+	Wind speed: {{weather.currently.windSpeed}} mph <br>
+	Summary: {{weather.currently.summary}} <br><br>
+	Daily summary: {{weather.daily.summary}}
+</p>
+<p><a class="btn btn-md btn-success" ng-click="nextPage()" role="button">Next page</a></p>

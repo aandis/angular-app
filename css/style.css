@@ -1,0 +1,95 @@
+*
+{
+	background-color: #D5D5D5;
+	margin: 0 auto;
+}
+
+#body
+{
+/*//	background-image: url("../images/fest8.jpg");
+	background-repeat: no-repeat;
+	background-position: -10px;
+*/
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+#logo
+{
+	margin-top: 1em;
+	margin-left: 1em;
+	max-width: 10em;
+}
+
+#nav-bar
+{
+	margin-top: 1em;
+	margin-left: 5em;
+}
+
+.description
+{
+	margin-left: 1em;
+}
+
+.list: 
+{
+	margin-left: 10em;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a img
+{
+	border: 0 none; 
+}
+
+#social-home
+{
+	margin-left: 1.5em;
+	margin-top: 10em;
+	margin-bottom: 2em;
+}
+
+#fb
+{
+	margin-left: 1em;
+}
+
+#twit
+{
+	margin-left: 0.4em;
+}
+/*styling for homepage*/
+
+#homepage-logo
+{
+	margin-top: 5em;
+	width:70%;
+	text-align: center;
+}
+
+#heading
+{
+	color : #3e3f3a;
+	font-weight : bold;
+}
+
+/* styling for events page */
+
+.event-box
+{
+	margin-top: 4em;
+}
+
+.event-brief
+{
+	margin-top: 20em;
+}
