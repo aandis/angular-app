@@ -10,6 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">    
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/loading-bar.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,6 +25,7 @@
     <script type="text/javascript" src = "js/angular-route.js"></script>
     <script type="text/javascript" src = "js/angular-animate.min.js"></script>
     <script type="text/javascript" src = "js/angular-resource.min.js"></script>
+    <script type="text/javascript" src = "js/loading-bar.js"></script>
     <script type="text/javascript" src = "js/oridomi.min.js"></script>
     <script type="text/javascript" src = "js/script-angular.js"></script>
     <script type="text/javascript" src = "js/script.js"></script>
