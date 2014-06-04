@@ -2,11 +2,11 @@
 function alertMsg() 
 {      
 	//your func
-    $('#heading').removeAttr("data-scroll-reveal");
-	$('#homepage-logo').removeAttr("data-scroll-reveal");
+ //    $('#heading').removeAttr("data-scroll-reveal");
+	// $('#homepage-logo').removeAttr("data-scroll-reveal");
 }
 
-$(document).ready(function() 
+document.addEventListener("DOMContentLoaded", function() 
 {
 	$("#homepage-logo-box").hide();
 	$(".description").hide();

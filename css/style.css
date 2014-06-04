@@ -129,7 +129,7 @@ a img
 
 .sponsor-logo
 {
-	max-width: 50%;
+	max-width: 14em;
 }
 
 /*styling for contact page */
@@ -141,5 +141,5 @@ a img
 
 .img-circle
 {
-	max-width: 100%;
+	max-width: 14em;
 }
