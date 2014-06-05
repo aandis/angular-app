@@ -37,8 +37,6 @@ body
 {
 	margin-left: 1em;
 	text-align: center;
-//	font-family: 'Arvo', serif;
-//	font-weight : bold;
 }
 
 .list: 
@@ -136,10 +134,22 @@ a img
 
 .people
 {
-	margin-top: 6em;
+	margin-top: 4em;
 }
 
 .img-circle
 {
 	max-width: 14em;
+	text-align: center;
+	display: block;
+}
+
+.people-box
+{
+	margin-top: 4em;
+}
+
+.people-description
+{
+	text-align: center;
 }

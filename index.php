@@ -39,7 +39,7 @@
           <img src = "images/swanz.png" id ="logo">
         </a>
       </div>
-      <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6" id = "nav-bar">
+      <div class = "col-lg-6 col-md-8 col-sm-8 col-xs-8" id = "nav-bar">
         <ul class="nav nav-pills">
           <li class = "list">
             <a href="#/events"><img src = "images/events.png"></a>
