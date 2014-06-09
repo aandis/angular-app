@@ -100,7 +100,7 @@ a img
 #homepage-logo
 {
 	margin-top: 5em;
-	width:70%;
+	width:62%;
 	text-align: center;
 }
 
@@ -109,6 +109,15 @@ a img
 	color : #3e3f3a;
 //	font-family: 'Arvo', serif;
 	font-weight : bold;
+}
+
+#news-container
+{
+	width : 10em;
+	margin-top: 2em;
+	margin-left: 10em;
+	background-color: white;
+	color: black;
 }
 
 /* styling for events page */
