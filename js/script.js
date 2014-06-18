@@ -7,7 +7,9 @@ var news = [
 ];
 
 window.onload = function() 
-  { document.getElementById("hideAll").style.display = "none"; }
+  { document.getElementById("hideAll").style.display = "none"; 
+       window.scrollReveal = new scrollReveal();
+}
 
 document.addEventListener("DOMContentLoaded", function() 
 {
