@@ -6,11 +6,6 @@ var news = [
 	"news 3"
 ];
 
-window.onload = function() 
-  { document.getElementById("hideAll").style.display = "none"; 
-       window.scrollReveal = new scrollReveal();
-}
-
 document.addEventListener("DOMContentLoaded", function() 
 {
 	$(".description").hide();
