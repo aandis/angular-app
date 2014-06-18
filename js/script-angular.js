@@ -1,6 +1,6 @@
 if(typeof angular == 'undefined' )
 {
-	alert("jalsd");
+	alert("Angular not supported");
 }
 else
 {

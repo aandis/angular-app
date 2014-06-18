@@ -91,7 +91,7 @@
     <script type="text/javascript" src = "js/scrollReveal.js"></script>
     <script type="text/javascript" src = "js/fox-angular-scrollReveal.js"></script>
     <script>
-
+      //for sequential appearance of images
       window.scrollReveal = new scrollReveal();
 
     </script>
