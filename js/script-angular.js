@@ -56,6 +56,18 @@ else
 			templateUrl : "partials/contact.html",
 			controller : "sponsorsController"
 		}).
+		when
+		('/gallery',
+		{
+			templateUrl : "partials/gallery.html",
+			controller : "sponsorsController"
+		}).
+		when
+		('/register',
+		{
+			templateUrl : "partials/register.html",
+			controller : "sponsorsController"
+		}).		
 		otherwise
 		({
 			redirectTo: '/'

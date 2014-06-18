@@ -1,18 +1,30 @@
 *
 {
-	margin: 0 auto;
 	font-family: 'Arvo', serif;
 	font-weight : bold;
 }
 
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+#wrap 
+{
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -50px;
+  /* Pad bottom by footer height */
+  padding: 0 0 50px;
+}
+
 body
 {
-/*//	background-image: url("../images/fest8.jpg");
-	background-repeat: no-repeat;
-	background-position: -10px;
-*/
 	background-color: #D5D5D5;
 }
+
 
 .row {
     margin-left: 0;
@@ -54,22 +66,18 @@ a img
 	border: 0 none; 
 }
 
-#social-home
-{
-	margin-left: 1.5em;
-	margin-top: 10em;
-	margin-bottom: 2em;
-}
 
-#fb
+#footer > .container
 {
-	margin-left: 1em;
+	margin-left: 2em;
 }
 
 #twit
 {
 	margin-left: 0.4em;
 }
+
+/*styling for page transition animation */
 
 .fade {
     opacity: 1;
@@ -102,6 +110,7 @@ a img
 	margin-top: 5em;
 	width:62%;
 	text-align: center;
+	margin-bottom: 2em;
 }
 
 #heading
@@ -120,6 +129,12 @@ a img
 	color: black;
 }
 
+#news-heading
+{
+	width: 10em;
+	background-color: #BCDDEF;
+}
+
 /* styling for events page */
 
 .event-box
@@ -130,6 +145,11 @@ a img
 .event-brief
 {
 	margin-top: 20em;
+}
+
+#last
+{
+	margin-bottom: 5em;
 }
 
 /*styling for sponsors page */

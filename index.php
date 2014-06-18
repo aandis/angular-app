@@ -33,51 +33,57 @@
   </head>
 
   <body ng-app = "myapp" id ="body">
-    <div class = "row">
-      <div class = "col-lg-2 col-md-2 col-sm-2 col-xs-2" id ="logo-box">
-        <a href = "#">
-          <img src = "images/swanz.png" id ="logo">
+    <div id="wrap">
+      <div class = "container">
+
+        <div class = "row">
+          <div class = "col-lg-2 col-md-2 col-sm-2 col-xs-2" id ="logo-box">
+            <a href = "#">
+              <img src = "images/swanz.png" id ="logo">
+            </a>
+          </div>
+
+          <div class = "col-lg-6 col-md-8 col-sm-8 col-xs-7" id = "nav-bar">
+            <ul class="nav nav-pills">
+              <li class = "list">
+                <a href="#/events"><img src = "images/events.png"></a>
+                <span class = "description">Events</span>
+              </li>
+              <li class = "list">
+                <a href="#/sponsors"><img src = "images/sponsors.png"></a>
+                <span class = "description">Sponsors</span>
+              </li>
+              <li class = "list">
+                <a href="#/gallery"><img src = "images/gallery.png"></a>
+                <span class = "description">Gallery</span>
+              </li>
+              <li class = "list">
+                <a href="#/contact"><img src = "images/contact.png"></a>
+                <span class = "description">Contact</span>
+              </li>
+              <li class = "list">
+                <a href="#/register"><img src = "images/register.png"></a>
+                <span class = "description">Register</span>
+              </li>
+            </ul>      
+          </div>
+        </div>
+
+        <div ng-view class="fade">
+
+        </div>
+      </div>
+    </div>
+      <!--footer -->
+      <div id="footer">      
+        <div class="container">      
+        <a href = "#" id = "fb">
+          <img src="images/icon-fb.png">
+        </a>
+        <a href="#" id = "twit">
+          <img src="images/icon-twit.png">
         </a>
       </div>
-      <div class = "col-lg-6 col-md-8 col-sm-8 col-xs-8" id = "nav-bar">
-        <ul class="nav nav-pills">
-          <li class = "list">
-            <a href="#/events"><img src = "images/events.png"></a>
-            <span class = "description">Events</span>
-          </li>
-          <li class = "list">
-            <a href="#/sponsors"><img src = "images/sponsors.png"></a>
-            <span class = "description">Sponsors</span>
-          </li>
-          <li class = "list">
-            <a href="#"><img src = "images/gallery.png"></a>
-            <span class = "description">Gallery</span>
-          </li>
-          <li class = "list">
-            <a href="#/contact"><img src = "images/contact.png"></a>
-            <span class = "description">Contact</span>
-          </li>
-          <li class = "list">
-            <a href="#"><img src = "images/register.png"></a>
-            <span class = "description">Register</span>
-          </li>
-        </ul>      
-      </div>
-    </div>
-
-    <div ng-view class="fade">
-
-    </div>
-
-    <!--footer -->
-
-    <div class = "col-lg-2" id = "social-home">
-      <a href = "#" id = "fb">
-        <img src="images/icon-fb.png">
-      </a>
-      <a href="#" id = "twit">
-        <img src="images/icon-twit.png">
-      </a>
     </div>
 
     <script src="js/bootstrap.min.js"></script>

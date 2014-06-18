@@ -17,12 +17,29 @@ document.addEventListener("DOMContentLoaded", function()
 	});
 
 	var i = 0;
+
 	setInterval(function(){
 		if(i == 3)
 			i = 0;
-//		$("#news").fadeOut();
-		$("#news").fadeIn().text(news[i]);
+
+		$('#news').text(news[i]);
 		i = i + 1;
-	},1000);
+	},2000);
+
+	// setInterval(function(){
+	// 	if(i == 3)
+	// 		i = 0;
+
+	// 	// $("#news").fadeOut(function(){
+	// 	// 	$(this).text(news[i]).fadeIn();
+	// 	// });
+
+	// 	$('#news').animate({'opacity' : 0 }, 1000, function(){
+	// 		console.log(i);
+	// 	 	$(this).text(news[i]);
+	// 	}).animate({'opacity':1}, 1000);
+
+	// 	i = i + 1;
+	// },2000);
 
 });
