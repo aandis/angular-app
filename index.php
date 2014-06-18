@@ -33,6 +33,7 @@
   </head>
 
   <body ng-app = "myapp" id ="body">
+    <div id="hideAll">&nbsp;</div>
     <div id="wrap">
       <div class = "container">
 
@@ -92,9 +93,7 @@
     <script type="text/javascript" src = "js/fox-angular-scrollReveal.js"></script>
     <script>
       //for sequential appearance of images
-      document.addEventListener("DOMContentLoaded", function(){
        window.scrollReveal = new scrollReveal();
-      }
     </script>
 
   </body>
