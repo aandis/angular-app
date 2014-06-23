@@ -8,6 +8,8 @@ var news = [
 
 $(window).load(function(){
 	$("body").fadeIn(2000);
+	window.scrollReveal = new scrollReveal();
+
 });
 
 //document.addEventListener("DOMContentLoaded", function() 
