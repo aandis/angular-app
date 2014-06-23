@@ -30,6 +30,7 @@
     <script type="text/javascript" src = "js/script-angular.js"></script>
     <script type="text/javascript" src = "js/script.js"></script>
     <script type="text/javascript" src = "js/script-oridomi.js"></script>
+
   </head>
 
   <body ng-app = "myapp" id ="body">
