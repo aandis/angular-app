@@ -46,23 +46,23 @@
           <div class = "col-lg-6 col-md-8 col-sm-8 col-xs-7" id = "nav-bar">
             <ul class="nav nav-pills">
               <li class = "list">
-                <a href="#/events"><img src = "images/events.png"></a>
-                <span class = "description">Events</span>
+                <a href="#/events" class = "link"><img src = "images/Icon-Events.png" class = "nav-image"></a>
+                <center><span class = "description">Events</span></center>
               </li>
               <li class = "list">
-                <a href="#/sponsors"><img src = "images/sponsors.png"></a>
+                <a href="#/sponsors"><img src = "images/Icon-Sponsors.png" class = "nav-image"></a>
                 <span class = "description">Sponsors</span>
               </li>
               <li class = "list">
-                <a href="#/gallery"><img src = "images/gallery.png"></a>
+                <a href="#/gallery"><img src = "images/Icon-Gallery.png" class = "nav-image"></a>
                 <span class = "description">Gallery</span>
               </li>
               <li class = "list">
-                <a href="#/contact"><img src = "images/contact.png"></a>
+                <a href="#/contact"><img src = "images/Icon-Contact-Us.png" class = "nav-image"></a>
                 <span class = "description">Contact</span>
               </li>
               <li class = "list">
-                <a href="#/register"><img src = "images/register.png"></a>
+                <a href="#/register"><img src = "images/icon-register.png" class = "nav-image"></a>
                 <span class = "description">Register</span>
               </li>
             </ul>      
@@ -78,10 +78,10 @@
       <div id="footer">      
         <div class="container">      
         <a href = "#" id = "fb">
-          <img src="images/icon-fb.png">
+          <img src="images/Icon-Facebook.png" class = "social-image">
         </a>
         <a href="#" id = "twit">
-          <img src="images/icon-twit.png">
+          <img src="images/Icon-Youtube.png" class = "social-image">
         </a>
       </div>
     </div>

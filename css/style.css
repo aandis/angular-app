@@ -2,6 +2,7 @@
 {
 	font-family: 'Arvo', serif;
 	font-weight : bold;
+	color: white;
 }
 
 html,
@@ -22,7 +23,13 @@ body {
 
 body
 {
-	background-color: #D5D5D5;
+	background : url("../images/BG.png");
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed;
 }
 
 
@@ -43,6 +50,17 @@ body
 {
 	margin-top: 1em;
 	margin-left: 5em;
+}
+
+.nav-image
+{
+	width: 5em;
+	border: 0;
+}
+
+.nav-image : hover
+{
+	opacity: 1;
 }
 
 .description
@@ -66,10 +84,14 @@ a img
 	border: 0 none; 
 }
 
-
 #footer > .container
 {
 	margin-left: 2em;
+}
+
+.social-image
+{
+	width : 35px;
 }
 
 #twit
@@ -115,8 +137,6 @@ a img
 
 #heading
 {
-	color : #3e3f3a;
-//	font-family: 'Arvo', serif;
 	font-weight : bold;
 }
 
