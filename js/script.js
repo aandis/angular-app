@@ -6,8 +6,12 @@ var news = [
 	"news 3"
 ];
 
-document.addEventListener("DOMContentLoaded", function() 
-{
+$(window).load(function(){
+	$("body").fadeIn(2000);
+});
+
+//document.addEventListener("DOMContentLoaded", function() 
+$(document).ready(function(){
 	$(".description").hide();
 	$(".list").mouseover(function(){
 		$(this).find(".description").show();

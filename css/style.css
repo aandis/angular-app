@@ -23,6 +23,7 @@ body {
 
 body
 {
+	display: none;
 	background : url("../images/BG.png");
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
