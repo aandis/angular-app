@@ -88,7 +88,9 @@ a img
 
 #footer > .container
 {
+	margin-top: 1em;
 	margin-left: 2em;
+	margin-bottom: 1em;
 }
 
 .social-image
@@ -156,6 +158,17 @@ a img
 	width: 10em;
 	background-color: #BCDDEF;
 }
+
+/*styling for gallery page */
+
+#gallery-box
+{
+	position: absolute;
+	left: 0px;
+	width: 100% !important;
+	margin-top: 2em;
+}
+
 
 /* styling for events page */
 
