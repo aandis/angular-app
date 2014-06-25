@@ -43,7 +43,7 @@ body
 #logo
 {
 	margin-top: 2em;
-	margin-left: 1em;
+	margin-left: -2.0em;
 	max-width: 10em;
 	width: 7em;
 }

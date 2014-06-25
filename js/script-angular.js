@@ -17,21 +17,25 @@ else
 	myapp.controller("homeController", function ($scope)
 	{
 		$scope.id = "hahah";
+		$("#logo").css({"display":"none"});
 	});
 
 	myapp.controller("eventController",function ($scope)
 	{
 		$scope.id = "asdsa";
+		$("#logo").css({"display":"block"});
 	});
 
 	myapp.controller("galleryController",function($scope)
 	{
 		$scope.id = "nothing";
+		$("#logo").css({"display":"block"});
 	});
 
 	myapp.controller("sponsorsController",function($scope)
 	{
 		$scope.id = "nothing";
+		$("#logo").css({"display":"block"});
 	});
 
 	myapp.config(['$routeProvider',function($routeProvider)
