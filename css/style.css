@@ -24,7 +24,7 @@ body {
 body
 {
 	display: none;
-	background : url("../images/BG.png");
+	background : url("../images/New-Background.png");
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -60,20 +60,13 @@ body
 	border: 0;
 }
 
-.nav-image : hover
-{
-	opacity: 1;
-}
-
 .description
 {
-	margin-left: 1em;
 	text-align: center;
 }
 
-.list: 
+.list
 {
-	margin-left: 10em;
 }
 
 a
@@ -133,15 +126,10 @@ a img
 
 #homepage-logo
 {
-	margin-top: 5em;
+	margin-top: 8em;
 	width:62%;
 	text-align: center;
 	margin-bottom: 2em;
-}
-
-#heading
-{
-	font-weight : bold;
 }
 
 #news-container

@@ -24,6 +24,11 @@ else
 		$scope.id = "asdsa";
 	});
 
+	myapp.controller("galleryController",function($scope)
+	{
+		$scope.id = "nothing";
+	});
+
 	myapp.controller("sponsorsController",function($scope)
 	{
 		$scope.id = "nothing";
@@ -60,7 +65,7 @@ else
 		('/gallery',
 		{
 			templateUrl : "partials/gallery.html",
-			controller : "sponsorsController"
+			controller : "galleryController"
 		}).
 		when
 		('/register',
