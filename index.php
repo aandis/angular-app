@@ -54,9 +54,7 @@
             <ul class="nav nav-pills">
               <li class = "list">
                 <a href="#/events" class = "link">
-                  <img src = "images/Icons-Events.png" class = "nav-image"
-                  onmouseover="this.src=' images/Icons-Events-color.png '" 
-                  onmouseout="this.src=' images/Icons-Events.png '" >
+                  <img src = "" id = "events" class = "nav-image">
                   </a>
                 <center><span class = "description">Events</span></center>
               </li>
