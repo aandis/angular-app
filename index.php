@@ -46,7 +46,7 @@
         <div class = "row">
           <div class = "col-lg-2 col-md-1 col-sm-1 col-xs-1" id ="logo-box">
             <a href = "#">
-              <img src = "images/swanz.png" id ="logo">
+              <img src = "" id ="logo">
             </a>
           </div>
 
