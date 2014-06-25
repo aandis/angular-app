@@ -7,7 +7,7 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">    
     <!-- the marquee css file -->
 
@@ -44,13 +44,13 @@
       <div class = "container">
 
         <div class = "row">
-          <div class = "col-lg-2 col-md-2 col-sm-2 col-xs-2" id ="logo-box">
+          <div class = "col-lg-2 col-md-1 col-sm-1 col-xs-1" id ="logo-box">
             <a href = "#">
               <img src = "images/swanz.png" id ="logo">
             </a>
           </div>
 
-          <div class = "col-lg-6 col-md-8 col-sm-8 col-xs-7" id = "nav-bar">
+          <div class = "col-lg-6 col-md-6 col-sm-8 col-xs-7" id = "nav-bar">
             <ul class="nav nav-pills">
               <li class = "list">
                 <a href="#/events" class = "link">
