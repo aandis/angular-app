@@ -60,33 +60,25 @@
               </li>
               <li class = "list">
                 <a href="#/sponsors">
-                  <img src = "images/Icon-Sponsors.png" class = "nav-image"
-                  onmouseover="this.src=' images/Icon-Sponsors-color.png '" 
-                  onmouseout="this.src=' images/Icon-Sponsors.png '">
+                  <img src = "" id = "sponsors" class = "nav-image">
                 </a>
                 <center><span class = "description">Sponsors</span></center>
               </li>
               <li class = "list">
                 <a href="#/gallery">
-                  <img src = "images/Icons-Gallery.png" class = "nav-image"
-                  onmouseover="this.src=' images/Icons-Gallery-color.png '" 
-                  onmouseout="this.src=' images/Icons-Gallery.png '">
+                  <img src = "" id = "gallery" class = "nav-image">
                 </a>
                 <center><span class = "description">Gallery</span></center>
               </li>
               <li class = "list">
                 <a href="#/contact">
-                  <img src = "images/Icons-Contact.png" class = "nav-image"
-                  onmouseover="this.src=' images/Icons-Contact-color.png '" 
-                  onmouseout="this.src=' images/Icons-Contact.png '">
+                  <img src = "" id = "contact" class = "nav-image">
                   </a>
                 <center><span class = "description">Contact</span></center>
               </li>
               <li class = "list">
                 <a href="#/register">
-                  <img src = "images/Icons-Register.png" class = "nav-image"
-                  onmouseover="this.src=' images/Icons-Register-color.png '" 
-                  onmouseout="this.src=' images/Icons-Register.png '">
+                  <img src = "" id = "register" class = "nav-image">
                 </a>
                 <center><span class = "description">Register</span></center>
               </li>
@@ -104,14 +96,10 @@
         <div class="container">
         <center>
         <a href = "https://www.facebook.com/zeitgeist.iitrpr" id = "fb" target="_blank">
-          <img src="images/IconsFacebook.png" class = "social-image"
-          onmouseover="this.src=' images/IconsFacebook-color.png '" 
-          onmouseout="this.src=' images/IconsFacebook.png '">
+          <img src="" id ="facebook" class = "social-image">
         </a>
         <a href="https://www.youtube.com/user/ZeitgeistIITRopar" id = "twit" target="_blank">
-          <img src="images/Icons-Youtube.png" class = "social-image"
-          onmouseover="this.src=' images/Icons-Youtube-color.png '" 
-          onmouseout="this.src=' images/Icons-Youtube.png '">
+          <img src="" id = "youtube" class = "social-image">
         </a>
         </center>
       </div>
