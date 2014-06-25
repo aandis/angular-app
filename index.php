@@ -56,31 +56,31 @@
                 <a href="#/events" class = "link">
                   <img src = "" id = "events" class = "nav-image">
                   </a>
-                <center><span class = "description">Events</span></center>
+                <center><div class = "description">Events</div></center>
               </li>
               <li class = "list">
                 <a href="#/sponsors">
                   <img src = "" id = "sponsors" class = "nav-image">
                 </a>
-                <center><span class = "description">Sponsors</span></center>
+                <center><div class = "description">Sponsors</div></center>
               </li>
               <li class = "list">
                 <a href="#/gallery">
                   <img src = "" id = "gallery" class = "nav-image">
                 </a>
-                <center><span class = "description">Gallery</span></center>
+                <center><div class = "description">Gallery</div></center>
               </li>
               <li class = "list">
                 <a href="#/contact">
                   <img src = "" id = "contact" class = "nav-image">
                   </a>
-                <center><span class = "description">Contact</span></center>
+                <center><div class = "description">Contact</div></center>
               </li>
               <li class = "list">
                 <a href="#/register">
                   <img src = "" id = "register" class = "nav-image">
                 </a>
-                <center><span class = "description">Register</span></center>
+                <center><div class = "description">Register</div></center>
               </li>
             </ul>      
           </div>

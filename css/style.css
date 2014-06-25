@@ -39,7 +39,6 @@ body
     margin-right: 0;
 }
 
-
 #logo
 {
 	margin-top: 2em;
@@ -64,6 +63,8 @@ body
 .description
 {
 	text-align: center;
+	max-height: 0.1px;
+	min-height: 0.1px;
 }
 
 .list
