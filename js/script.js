@@ -203,7 +203,7 @@ $(document).ready(function(){
 		}
 		else if(id == "contact")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + galleryimage);			
+			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + contactimage);			
 		}
 		else if(id == "register")
 		{
