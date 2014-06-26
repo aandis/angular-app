@@ -86,7 +86,8 @@ a img
 #footer > .container
 {
 /*	margin-top: 0.1em;
-*/	margin-left: 5em;
+*/
+	margin-left: 5em;
 	margin-bottom: 1em;
 }
 
@@ -155,10 +156,12 @@ a img
 
 #gallery-box
 {
-	position: absolute;
 	left: 0px;
-	width: 100% !important;
+	margin-left: -110px;
+	margin-right: -100px;
 	margin-top: 2em;
+	margin-bottom: 1em;
+	border: 3px solid black;
 }
 
 
