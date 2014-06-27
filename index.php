@@ -64,13 +64,13 @@
           <div class = "col-lg-6 col-md-6 col-sm-8 col-xs-7" id = "nav-bar">
             <ul class="nav nav-pills">
               <li class = "list">
-                <a href="#/events" class = "link">
+                <a href="#/events" class = "link" onClick="_gaq.push(['_trackEvent', 'Menu', 'Events', 'Event Clicks']);">
                   <img src = "" id = "events" class = "nav-image">
                   </a>
                 <center><div class = "description">Events</div></center>
               </li>
               <li class = "list">
-                <a href="#/sponsors">
+                <a href="#/sponsors" onClick="_gaq.push(['_trackEvent', 'Menu', 'Sponsors', 'Sponsors Clicks']);">
                   <img src = "" id = "sponsors" class = "nav-image">
                 </a>
                 <center><div class = "description">Sponsors</div></center>
