@@ -191,8 +191,11 @@ a img
 
 #sponsor-container
 {
-	background-color: #7A7A7A;
-	opacity: 0.6;
+	//background-color: #7A7A7A;
+	background: rgba(0,0,0,0.3);
+	/*for IE*/
+	-pie-background:  rgba(200, 54, 54, 0.5);
+    behavior: url(PIE.htc);
 }
 
 /*styling for contact page */
