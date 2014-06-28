@@ -55,18 +55,18 @@
       <div class = "container">
 
         <div class = "row">
-          <div class = "col-lg-2 col-md-1 col-sm-1 col-xs-1" id ="logo-box">
+          <div class = "col-lg-2 col-md-2 col-sm-2 col-xs-2" id ="logo-box">
             <a href = "#">
               <img src = "" id ="logo">
             </a>
           </div>
 
-          <div class = "col-lg-6 col-md-6 col-sm-8 col-xs-7" id = "nav-bar">
-            <ul class="nav nav-pills">
+          <div class = "" id = "nav-bar">
+            <ul>
               <li class = "list">
                 <a href="#/events" class = "link" onClick="_gaq.push(['_trackEvent', 'Menu', 'Events', 'Event Clicks']);">
                   <img src = "" id = "events" class = "nav-image">
-                  </a>
+                </a>
                 <center><div class = "description">Events</div></center>
               </li>
               <li class = "list">
@@ -93,7 +93,7 @@
                 </a>
                 <center><div class = "description">Register</div></center>
               </li>
-            </ul>      
+            </ul>   
           </div>
         </div>
 
@@ -105,14 +105,18 @@
       <!--footer -->
       <div id="footer">      
         <div class="container">
-        <center>
+        <ul>
+          <li>
         <a href = "https://www.facebook.com/zeitgeist.iitrpr" id = "fb" target="_blank">
           <img src="" id ="facebook" class = "social-image">
         </a>
+          </li>
+          <li>
         <a href="https://www.youtube.com/user/ZeitgeistIITRopar" id = "twit" target="_blank">
           <img src="" id = "youtube" class = "social-image">
         </a>
-        </center>
+          </li>
+        </ul>
       </div>
     </div>
 

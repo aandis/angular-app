@@ -21,6 +21,11 @@ body {
   padding: 0 0 50px;
 }
 
+#wrap > .container
+{
+	min-width: 1300px;
+}
+
 body
 {
 	display: none;
@@ -42,16 +47,27 @@ body
 #logo
 {
 	margin-top: 2em;
-	margin-left: -2.0em;
 	max-width: 10em;
 	width: 7em;
 }
 
 #nav-bar
 {
-	margin-top: 1em;
-	margin-left: 12em;
+	margin: 0 auto;
+	margin-top: 2em;
+	display: block;
+}
 
+ul
+{
+	list-style-type: none;
+	text-align: center;
+}
+
+ul li
+{
+	display: inline-block;
+	vertical-align: top;
 }
 
 .nav-image
@@ -69,8 +85,8 @@ body
 
 .list
 {
-	margin-left: 0.1em !important;
-	margin-right: 0.1em !important;
+	margin-left: 0.2em !important;
+	margin-right: 0.2em !important;
 }
 
 a
@@ -83,11 +99,15 @@ a img
 	border: 0 none; 
 }
 
+#footer
+{
+	min-width: 1300px;
+}
+
 #footer > .container
 {
 /*	margin-top: 0.1em;
 */
-	margin-left: 8em;
 	margin-bottom: 1em;
 }
 
@@ -195,6 +215,7 @@ a img
 	/*for IE*/
 	-pie-background:  rgba(200, 54, 54, 0.5);
     behavior: url(PIE.htc);
+    width: 100%;
 }
 
 /*styling for contact page */
