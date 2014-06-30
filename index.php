@@ -33,10 +33,8 @@
     <script type="text/javascript" src = "js/angular-animate.min.js"></script>
     <script type="text/javascript" src = "js/angular-resource.min.js"></script>
     <script type="text/javascript" src = "js/loading-bar.js"></script>
-    <script type="text/javascript" src = "js/oridomi.min.js"></script>
     <script type="text/javascript" src = "js/script-angular.js"></script>
     <script type="text/javascript" src = "js/script.js"></script>
-    <script type="text/javascript" src = "js/script-oridomi.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
