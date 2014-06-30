@@ -7,9 +7,9 @@
 
 html,
 body {
-  height: 100%;
+  	height: 100%;
   /* The html and body elements cannot have any padding or margin. */
-	min-width: 1300px;
+	min-width: 1250px;
 }
 
 #wrap 
@@ -35,7 +35,8 @@ body
 	background-size: cover;
 //	background-position: top center !important;
 	background-repeat: no-repeat !important;
-//	background-attachment: fixed;
+	background-attachment: fixed;
+	text-align: center;
 }
 
 
@@ -43,6 +44,8 @@ body
     margin-left: 0;
     margin-right: 0;
 }
+
+
 
 #logo
 {
@@ -55,7 +58,12 @@ body
 {
 	margin: 0 auto;
 	margin-top: 2em;
-	display: block;
+	display: inline-block;
+}
+
+#nav-bar > ul
+{
+	padding-right: 12em;
 }
 
 ul
@@ -101,7 +109,7 @@ a img
 
 #footer
 {
-	min-width: 1300px;
+	min-width: 1250px;
 }
 
 #footer > .container
@@ -178,8 +186,8 @@ a img
 #gallery-box
 {
 	left: 0px;
-	margin-left: -200px;
-	margin-right: -200px;
+	margin-left: -65px;
+	margin-right: -65px;
 	margin-top: 2em;
 	margin-bottom: 1em;
 	border: 3px solid black; 
