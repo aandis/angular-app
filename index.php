@@ -63,37 +63,37 @@
           <div class = "" id = "nav-bar">
             <ul>
               <li class = "list">
-                <a href="#/events" class = "link" onClick="_gaq.push(['_trackEvent', 'Menu', 'Events', 'Event Clicks']);">
+                <a href="#/events" class = "link" onClick="ga('send', 'event', 'Menu', 'Event-clicks');">
                   <img src = "" id = "events" class = "nav-image">
                 </a>
                 <center><div class = "description">Events</div></center>
               </li>
               <li class = "list">
-                <a href="#/sponsors" onClick="_gaq.push(['_trackEvent', 'Menu', 'Sponsors', 'Sponsors Clicks']);">
+                <a href="#/sponsors" onClick="ga('send', 'event', 'Menu', 'Sponsors-clicks');">
                   <img src = "" id = "sponsors" class = "nav-image">
                 </a>
                 <center><div class = "description">Sponsors</div></center>
               </li>
               <li class = "list">
-                <a href="#/gallery">
+                <a href="#/gallery" onClick="ga('send', 'event', 'Menu', 'Gallery-clicks');">
                   <img src = "" id = "gallery" class = "nav-image">
                 </a>
                 <center><div class = "description">Gallery</div></center>
               </li>
               <li class = "list">
-                <a href="#/contact">
+                <a href="#/contact" onClick="ga('send', 'event', 'Menu', 'Contact-clicks');">
                   <img src = "" id = "contact" class = "nav-image">
                   </a>
                 <center><div class = "description">Contact</div></center>
               </li>
               <li class = "list">
-                <a href="#/register">
+                <a href="#/register" onClick="ga('send', 'event', 'Menu', 'Register-clicks');">
                   <img src = "" id = "register" class = "nav-image">
                 </a>
                 <center><div class = "description">Register</div></center>
               </li>
               <li class = "list">
-                <a href="#">
+                <a href="#" onClick="ga('send', 'event', 'Menu', 'Info-clicks');">
                   <img src = "" id = "info" class = "nav-image">
                 </a>
                 <center><div class = "description">About Us</div></center>
