@@ -21,7 +21,7 @@ $(document).ready(function(){
 	document.getElementById("register").src='data:image/png;base64,' + registerimage;
 	document.getElementById("facebook").src='data:image/png;base64,' + fbimage;
 	document.getElementById("youtube").src='data:image/png;base64,' + youimage;
-
+	document.getElementById("info").src='data:image/png;base64,' + infoimage;
 	$(".description").hide();
 
 	$("#logo").mouseover(function(){
@@ -56,6 +56,10 @@ $(document).ready(function(){
 		{
 			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + registerimagecolor);			
 		}
+		else if(id == "info")
+		{
+			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + infoimagecolor);
+		}
 	});
 	$(".list").mouseleave(function(){
 		$(this).find(".description").hide();
@@ -79,6 +83,10 @@ $(document).ready(function(){
 		else if(id == "register")
 		{
 			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + registerimage);			
+		}
+		else if(id = "info")
+		{
+			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + infoimage);			
 		}
 	});
 
