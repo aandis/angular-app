@@ -34,8 +34,6 @@
     <script type="text/javascript" src = "js/angular-resource.min.js"></script>
     <script type="text/javascript" src = "js/loading-bar.js"></script>
     <script type="text/javascript" src = "js/oridomi.min.js"></script>
-    <script type="text/javascript" src = "js/scrollReveal.js"></script>
-    <script type="text/javascript" src = "js/fox-angular-scrollReveal.js"></script>
     <script type="text/javascript" src = "js/script-angular.js"></script>
     <script type="text/javascript" src = "js/script.js"></script>
     <script type="text/javascript" src = "js/script-oridomi.js"></script>
@@ -64,10 +62,9 @@
             </a>
           </div>
 
-          <div class = "" id = "nav-bar" data-scroll-reveal-container>
+          <div class = "" id = "nav-bar">
             <ul>
-              <li class = "list"
-              data-scroll-reveal = "enter left and move 50px over 1.33s">
+              <li class = "list">
                 <a href="#/events" class = "link" onClick="_gaq.push(['_trackEvent', 'Menu', 'Events', 'Event Clicks']);">
                   <img src = "" id = "events" class = "nav-image">
                 </a>
