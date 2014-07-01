@@ -12,9 +12,8 @@
     <!-- the marquee css file -->
 
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-
+    <link rel="stylesheet" type="text/css" href="css/pace.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/loading-bar.css">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,12 +26,12 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src = "js/pace.js"></script>
     <script type="text/javascript" src = "js/loadimages.js"></script>
     <script type="text/javascript" src = "js/angular.min.js"></script>
     <script type="text/javascript" src = "js/angular-route.js"></script>
     <script type="text/javascript" src = "js/angular-animate.min.js"></script>
     <script type="text/javascript" src = "js/angular-resource.min.js"></script>
-    <script type="text/javascript" src = "js/loading-bar.js"></script>
     <script type="text/javascript" src = "js/script-angular.js"></script>
     <script type="text/javascript" src = "js/script.js"></script>
 
@@ -45,6 +44,10 @@
       ga('create', 'UA-52347496-1', 'auto');
       ga('send', 'pageview');
 
+    </script>
+
+    <script type="text/javascript">
+    Pace.restart;
     </script>
 
   </head>

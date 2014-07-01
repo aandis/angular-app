@@ -7,11 +7,7 @@ else
 //	alert("good");
 }
 
-	var myapp = angular.module("myapp", ['ngRoute','fox.scrollReveal',
-		'angular-loading-bar','ngAnimate'])
-		.config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
-    		cfpLoadingBarProvider.latencyThreshold = 0.5;
-  		}]);	
+	var myapp = angular.module("myapp", ['ngRoute','fox.scrollReveal','ngAnimate']);	
 	console.log("ok");
 
 	myapp.controller("homeController", function ($scope)
