@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zeitgeist 2014</title>
 
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">    
@@ -23,10 +24,23 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      $('<img/>').attr('src', 'images/New-Background.png').load(function() {
+         $(this).remove(); // prevent memory leaks as @benweet suggested
+         $('body').css({'background':'url(images/New-Background.png)',
+          '-moz-background-size':'cover',
+          '-webkit-background-size' :'cover',
+          'background-size' : 'cover',
+          'background-repeat' : 'no-repeat !important',
+          'background-attachment' :'fixed',
+          'text-align' : 'center'});
+      });
+    </script>
     <script type="text/javascript" src = "js/pace.js"></script>
     <script type="text/javascript" src = "js/loadimages.js"></script>
     <script type="text/javascript" src = "js/angular.min.js"></script>

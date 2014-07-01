@@ -28,8 +28,8 @@ body {
 
 body
 {
-//	display: none;
-	background : url("../images/New-Background.png");
+/*//	display: none;
+//	background : url("../images/New-Background.png");
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -37,7 +37,7 @@ body
 	background-repeat: no-repeat !important;
 	background-attachment: fixed;
 	text-align: center;
-}
+*/}
 
 
 .row {
