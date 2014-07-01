@@ -28,7 +28,7 @@ body {
 
 body
 {
-	display: none;
+//	display: none;
 	background : url("../images/New-Background.png");
 	-moz-background-size: cover;
 	-webkit-background-size: cover;

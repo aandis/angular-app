@@ -8,12 +8,10 @@ var news = [
 
 $(window).load(function(){
 	$("body").fadeIn(2000);
-	$("#wait").hide();
 });
 
 //document.addEventListener("DOMContentLoaded", function() 
 $(document).ready(function(){
-
 	document.getElementById("logo").src='data:image/png;base64,' + logoimage;
 	document.getElementById("events").src='data:image/png;base64,' + eventimage;
 	document.getElementById("sponsors").src='data:image/png;base64,' + sponsorimage;
@@ -23,6 +21,7 @@ $(document).ready(function(){
 	document.getElementById("facebook").src='data:image/png;base64,' + fbimage;
 	document.getElementById("youtube").src='data:image/png;base64,' + youimage;
 	document.getElementById("info").src='data:image/png;base64,' + infoimage;
+
 	$(".description").hide();
 
 	$("#logo").mouseover(function(){

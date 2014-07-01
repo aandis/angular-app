@@ -12,6 +12,7 @@ else
 
 	myapp.controller("homeController", function ($scope)
 	{
+		document.getElementById("homepage-logo").src = 'data:image/png;base64,' + homeimage;
 		$scope.id = "hahah";
 		$("#logo").css({"display":"none"});
 	});
