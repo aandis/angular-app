@@ -46,12 +46,9 @@
 
     </script>
 
-    <script type="text/javascript">
-    Pace.restart;
-    </script>
-
   </head>
 
+  <h2 id = "wait">Please wait</h2>
   <body ng-app = "myapp" id ="body">
     <div id="wrap">
       <div class = "container">

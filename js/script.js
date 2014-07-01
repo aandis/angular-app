@@ -8,6 +8,7 @@ var news = [
 
 $(window).load(function(){
 	$("body").fadeIn(2000);
+	$("#wait").hide();
 });
 
 //document.addEventListener("DOMContentLoaded", function() 
