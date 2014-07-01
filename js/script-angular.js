@@ -35,6 +35,12 @@ else
 		$("#logo").css({"display":"block"});
 	});
 
+	myapp.controller("aboutController",function($scope)
+	{
+		$scope.id = "nothing";
+		$("#logo").css({"display":"block"});
+	});
+
 	myapp.config(['$routeProvider',function($routeProvider)
 	{
 		$routeProvider.
@@ -73,6 +79,12 @@ else
 		{
 			templateUrl : "partials/register.html",
 			controller : "sponsorsController"
+		}).		
+		when
+		('/about',
+		{
+			templateUrl : "partials/about.html",
+			controller : "aboutController"
 		}).		
 		otherwise
 		({

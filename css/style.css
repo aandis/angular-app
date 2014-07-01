@@ -231,8 +231,19 @@ a img
 
 #people-images
 {
+	margin-top: 3em;
 	width: 80%;
 }
+
+/*styling for info page */
+
+#info-image
+{
+	margin-top: 3em;
+	margin-bottom: 2em;
+	width: 80%;
+}
+
 
 /*.people
 {

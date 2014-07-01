@@ -93,7 +93,7 @@
                 <center><div class = "description">Register</div></center>
               </li>
               <li class = "list">
-                <a href="#" onClick="ga('send', 'event', 'Menu', 'Info-clicks');">
+                <a href="#/about" onClick="ga('send', 'event', 'Menu', 'Info-clicks');">
                   <img src = "" id = "info" class = "nav-image">
                 </a>
                 <center><div class = "description">About Us</div></center>
