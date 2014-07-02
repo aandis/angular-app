@@ -92,3 +92,10 @@ else
 		});
 	}
 	]);
+
+
+myapp.run(function ($rootScope, $location) {
+    $rootScope.$on('$routeChangeSuccess', function(){
+        $window.ga('send', 'pageview',  { page: $location.path() } );;
+    });
+});

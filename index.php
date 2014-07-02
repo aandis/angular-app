@@ -41,14 +41,6 @@
           'text-align' : 'center'});
       });
     </script>
-    <script type="text/javascript" src = "js/pace.js"></script>
-    <script type="text/javascript" src = "js/loadimages.js"></script>
-    <script type="text/javascript" src = "js/angular.min.js"></script>
-    <script type="text/javascript" src = "js/angular-route.js"></script>
-    <script type="text/javascript" src = "js/angular-animate.min.js"></script>
-    <script type="text/javascript" src = "js/angular-resource.min.js"></script>
-    <script type="text/javascript" src = "js/script-angular.js"></script>
-    <script type="text/javascript" src = "js/script.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -57,9 +49,18 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-52347496-1', 'auto');
-      ga('send', 'pageview');
+//      ga('send', 'pageview');
 
     </script>
+
+    <script type="text/javascript" src = "js/pace.js"></script>
+    <script type="text/javascript" src = "js/loadimages.js"></script>
+    <script type="text/javascript" src = "js/angular.min.js"></script>
+    <script type="text/javascript" src = "js/angular-route.js"></script>
+    <script type="text/javascript" src = "js/angular-animate.min.js"></script>
+    <script type="text/javascript" src = "js/angular-resource.min.js"></script>
+    <script type="text/javascript" src = "js/script-angular.js"></script>
+    <script type="text/javascript" src = "js/script.js"></script>
 
   </head>
 
