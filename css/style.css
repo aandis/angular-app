@@ -131,30 +131,6 @@ a img
 
 /*styling for page transition animation */
 
-.fade {
-    opacity: 1;
-}
-.fade.ng-enter,
-.fade.ng-leave {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-}
-.fade.ng-enter {
-	transition: all 1.5s ease;
-    opacity: 0;
-}
-.fade.ng-enter-active {
-    opacity: 1;
-}
-.fade.ng-leave {
-    transition: all 0.1s ease;	
-    opacity: 1;
-}
-.fade.ng-leave-active {
-    opacity: 0;
-}
-
 /*styling for homepage*/
 
 #homepage-logo
