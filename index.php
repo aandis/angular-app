@@ -17,17 +17,34 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--music-->
+    <link rel="stylesheet" type="text/css" href="plugin/css/style.css">
+    <link rel="stylesheet" type="text/css" href="demo/css/demo.css">
     <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="plugin/jquery-jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="plugin/ttw-music-player-min.js"></script>
+    <script type="text/javascript" src="demo/js/myplaylist.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var description = '';
+
+            $('.widget').ttwMusicPlayer(myPlaylist, {
+                autoplay:true, 
+                description:description,
+                jPlayer:{
+                    swfPath:'plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                }
+            });
+        });
+    </script>
+
+
 
     <script type="text/javascript">
       $('<img/>').attr('src', 'images/New-Background.png').load(function() {
@@ -117,7 +134,7 @@
           </div>
         </div>
 
-        <div ng-view class="fade">
+        <div ng-view class={{effect}} id = "render">
 
         </div>
       </div>
@@ -140,6 +157,10 @@
       </div>
     </div>
 
+    <div class="widget">
+      <div id="title"></div> 
+    </div>
+
     <script src="js/bootstrap.min.js"></script>
     
     <script type="text/javascript" src = "js/scrollReveal.js"></script>
@@ -149,6 +170,18 @@
       window.scrollReveal = new scrollReveal();
 
     </script>
+
+
+<!-- <div id="cp_widget_dd9710fa-4114-4042-9912-16e26c943d64">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_dd9710fa-4114-4042-9912-16e26c943d64"; cpo["_fid"] = "AoHAe27CteoO";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script><noscript>Powered by Cincopa <a href='http://www.cincopa.com/video-hosting'>Video Streaming Hosting</a> solution.<span>New Gallery 2014/8/1</span><span>Champion!</span><span>Battle Cry!</span></noscript>
+ -->
+
+
 
   </body>
 </html>

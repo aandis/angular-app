@@ -1,9 +1,9 @@
 
 var news = [
 	
-	"news 1",
-	"news 2",
-	"news 3"
+	"Updates will be coming soon",
+	"Events will comoing soon",
+	"Some other info will coming soon"
 ];
 
 $(window).load(function(){

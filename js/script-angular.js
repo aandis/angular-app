@@ -15,30 +15,35 @@ else
 		document.getElementById("homepage-logo").src = 'data:image/png;base64,' + homeimage;
 		$scope.id = "hahah";
 		$("#logo").css({"display":"none"});
+		$scope.effect = 'fade';
 	});
 
 	myapp.controller("eventController",function ($scope)
 	{
 		$scope.id = "asdsa";
 		$("#logo").css({"display":"block"});
+		$scope.effect = 'fade';
 	});
 
 	myapp.controller("galleryController",function($scope)
 	{
 		$scope.id = "nothing";
 		$("#logo").css({"display":"block"});
+		$scope.effect = 'fade';
 	});
 
 	myapp.controller("sponsorsController",function($scope)
 	{
 		$scope.id = "nothing";
 		$("#logo").css({"display":"block"});
+		$scope.effect = 'slide-pop';
 	});
 
 	myapp.controller("aboutController",function($scope)
 	{
 		$scope.id = "nothing";
 		$("#logo").css({"display":"block"});
+		$scope.effect = 'rotate';
 	});
 
 	myapp.config(['$routeProvider',function($routeProvider)
