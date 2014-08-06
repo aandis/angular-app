@@ -9,41 +9,39 @@ else
 
 	var myapp = angular.module("myapp", ['ngRoute','fox.scrollReveal','ngAnimate']);	
 	console.log("ok");
-
+	myapp.controller('loaderCtrl', function ($scope)
+	{
+        $scope.webloader = true;
+    });
 	myapp.controller("homeController", function ($scope)
 	{
-		document.getElementById("homepage-logo").src = 'data:image/png;base64,' + homeimage;
+		document.getElementById("homepage-logo").src = 'images/zwhite.png';//'data:image/png;base64,' + homeimage;
 		$scope.id = "hahah";
-		$("#logo").css({"display":"none"});
-		$scope.effect = 'fade';
+		$("#logospan").css({"display":"none"});
 	});
 
 	myapp.controller("eventController",function ($scope)
 	{
 		$scope.id = "asdsa";
-		$("#logo").css({"display":"block"});
-		$scope.effect = 'fade';
+		$("#logospan").css({"display":"block"});
 	});
 
 	myapp.controller("galleryController",function($scope)
 	{
 		$scope.id = "nothing";
-		$("#logo").css({"display":"block"});
-		$scope.effect = 'fade';
+		$("#logospan").css({"display":"block"});
 	});
 
 	myapp.controller("sponsorsController",function($scope)
 	{
 		$scope.id = "nothing";
-		$("#logo").css({"display":"block"});
-		$scope.effect = 'fade';
+		$("#logospan").css({"display":"block"});
 	});
 
 	myapp.controller("aboutController",function($scope)
 	{
 		$scope.id = "nothing";
-		$("#logo").css({"display":"block"});
-		$scope.effect = 'fade';
+		$("#logospan").css({"display":"block"});
 	});
 
 	myapp.config(['$routeProvider',function($routeProvider)

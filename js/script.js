@@ -1,35 +1,33 @@
 
 var news = [
 	
-	"Updates will be coming soon",
-	"Events will comoing soon",
-	"Some other info will coming soon"
+	"Zeitgeist'14 is coming soon",
 ];
 
 $(window).load(function(){
 	$("body").fadeIn(2000);
 });
 
-//document.addEventListener("DOMContentLoaded", function() 
 $(document).ready(function(){
-	document.getElementById("logo").src='data:image/png;base64,' + logoimage;
-	document.getElementById("events").src='data:image/png;base64,' + eventimage;
-	document.getElementById("sponsors").src='data:image/png;base64,' + sponsorimage;
-	document.getElementById("gallery").src='data:image/png;base64,' + galleryimage;
-	document.getElementById("contact").src='data:image/png;base64,' + contactimage;
-	document.getElementById("register").src='data:image/png;base64,' + registerimage;
-	document.getElementById("facebook").src='data:image/png;base64,' + fbimage;
-	document.getElementById("youtube").src='data:image/png;base64,' + youimage;
-	document.getElementById("info").src='data:image/png;base64,' + infoimage;
-
+	$("#eventsHover").hide();
+	$("#sponsorsHover").hide();
+	$("#galleryHover").hide();
+	$("#contactHover").hide();
+	$("#registerHover").hide();
+	$("#infoHover").hide();
 	$(".description").hide();
+	$("#logoHover").hide();
+	$("#facebookHover").hide();
+	$("#youtubeHover").hide();
 
 	$("#logo").mouseover(function(){
-		$(this).attr("src",'data:image/png;base64,' + logoimagecolor);
+		$("#logo").hide();
+		$("#logoHover").show();
 	});
 	
-	$("#logo").mouseleave(function(){
-		$(this).attr("src",'data:image/png;base64,' + logoimage);
+	$("#logoHover").mouseleave(function(){
+		$("#logo").show();
+		$("#logoHover").hide();
 	});
 
 
@@ -38,27 +36,33 @@ $(document).ready(function(){
 		var id = $(this).find(".nav-image").attr("id");
 		if(id == "events")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + eventimagecolor);
+			$(this).find("#events").hide();
+			$(this).find("#eventsHover").show();
 		}
 		else if(id == "sponsors")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + sponsorimagecolor);			
+			$(this).find("#sponsors").hide();
+			$(this).find("#sponsorsHover").show();		
 		}
 		else if(id == "gallery")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + galleryimagecolor);			
+			$(this).find("#gallery").hide();
+			$(this).find("#galleryHover").show();	
 		}
 		else if(id == "contact")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + contactimagecolor);			
+			$(this).find("#contact").hide();
+			$(this).find("#contactHover").show();	
 		}
 		else if(id == "register")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + registerimagecolor);			
+			$(this).find("#register").hide();
+			$(this).find("#registerHover").show();		
 		}
 		else if(id == "info")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + infoimagecolor);
+			$(this).find("#info").hide();
+			$(this).find("#infoHover").show();
 		}
 	});
 	$(".list").mouseleave(function(){
@@ -66,27 +70,33 @@ $(document).ready(function(){
 		var id = $(this).find(".nav-image").attr("id");
 		if(id == "events")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + eventimage);
+			$(this).find("#events").show();
+			$(this).find("#eventsHover").hide();
 		}
 		else if(id == "sponsors")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + sponsorimage);			
+			$(this).find("#sponsors").show();
+			$(this).find("#sponsorsHover").hide();
 		}
 		else if(id == "gallery")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + galleryimage);			
+			$(this).find("#gallery").show();
+			$(this).find("#galleryHover").hide();
 		}
 		else if(id == "contact")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + contactimage);			
+			$(this).find("#contact").show();
+			$(this).find("#contactHover").hide();
 		}
 		else if(id == "register")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + registerimage);			
+			$(this).find("#register").show();
+			$(this).find("#registerHover").hide();
 		}
 		else if(id = "info")
 		{
-			$(this).find(".nav-image").attr("src",'data:image/png;base64,' + infoimage);			
+			$(this).find("#info").show();
+			$(this).find("#infoHover").hide();
 		}
 	});
 
@@ -94,23 +104,27 @@ $(document).ready(function(){
 		var id = $(this).attr("id");
 		if(id == "facebook")
 		{
-			$(this).attr("src",'data:image/png;base64,' + fbimagecolor);	
+			$("#facebook").hide();
+			$("#facebookHover").show();	
 		}
 		else if(id == "youtube")
 		{
-			$(this).attr("src",'data:image/png;base64,' + youimagecolor);
+			$("#youtube").hide();
+			$("#youtubeHover").show();
 		}
 	});
 
 	$(".social-image").mouseleave(function(){
 		var id = $(this).attr("id");
-		if(id == "facebook")
+		if(id == "facebookHover")
 		{
-			$(this).attr("src",'data:image/png;base64,' + fbimage);	
+			$("#facebook").show();
+			$("#facebookHover").hide();
 		}
-		else if(id == "youtube")
+		else if(id == "youtubeHover")
 		{
-			$(this).attr("src",'data:image/png;base64,' + youimage);
+			$("#youtube").show();
+			$("#youtubeHover").hide();
 		}
 	});
 
