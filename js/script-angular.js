@@ -36,14 +36,14 @@ else
 	{
 		$scope.id = "nothing";
 		$("#logo").css({"display":"block"});
-		$scope.effect = 'slide-pop';
+		$scope.effect = 'fade';
 	});
 
 	myapp.controller("aboutController",function($scope)
 	{
 		$scope.id = "nothing";
 		$("#logo").css({"display":"block"});
-		$scope.effect = 'rotate';
+		$scope.effect = 'fade';
 	});
 
 	myapp.config(['$routeProvider',function($routeProvider)
